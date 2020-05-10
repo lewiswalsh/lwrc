@@ -7,5 +7,5 @@ if (( $LWRC_COUNT > 0 )); then
 else
   echo "Adding 'source ~/.lwrc' to .bashrc"
   echo "source ~/lwrc/.lwrc" >> ~/.bashrc
-source ~/lwrc/.lwrc
+  source ~/lwrc/.lwrc
 fi
